@@ -1,0 +1,15 @@
+{
+  "name": "pdf-to-mongodb",
+  "version": "1.0.0",
+  "description": "A project to read PDF data and push it to MongoDB",
+  "main": "read.js",
+  "scripts": {
+    "start": "nodemon read.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express-ws": "^5.0.2",
+    "ws": "^8.18.2"
+  },
+  "type": "module"
+}
