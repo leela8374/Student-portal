@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['https://student-portal-dygx.vercel.app/'],  // Frontend URL
+  origin: ['https://student-portal-indol.vercel.app/'],  // Frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
