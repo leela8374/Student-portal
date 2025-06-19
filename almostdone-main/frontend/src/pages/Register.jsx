@@ -15,7 +15,7 @@ function Register() {
       return;
     }
     try {
-      await axios.post('http://localhost:5000/auth/register', {
+      await axios.post('https://student-portal-dygx.vercel.app/auth/register', {
         roll: form.roll,
         email: form.email,
         password: form.password,
